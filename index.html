@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Refriroca — Ingeniería &amp; Construcciones</title>
+
+<!-- SEO & Meta Tags -->
+<meta name="description" content="Refriroca — Refrigeración Los Robles, C.A. Especialistas en electricidad, obras civiles, mecánica y refrigeración industrial en el estado Zulia con más de 20 años de experiencia.">
+<meta name="keywords" content="Refriroca, refrigeración industrial, electricidad, obras civiles, mecánica industrial, mantenimiento, Zulia, Maracaibo, San Francisco">
+<meta name="author" content="Refriroca">
+
+<!-- Favicon -->
+<link rel="icon" href="assets/images/favicon/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+<link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png">
+<link rel="manifest" href="assets/images/favicon/site.webmanifest">
+<meta name="theme-color" content="#000000">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://refriroca.com/">
+<meta property="og:title" content="Refriroca — Ingeniería &amp; Construcciones">
+<meta property="og:description" content="Especialistas en electricidad, obras civiles, mecánica y refrigeración industrial en el estado Zulia.">
+<meta property="og:image" content="https://refriroca.com/assets/images/logo/logo.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://refriroca.com/">
+<meta name="twitter:title" content="Refriroca — Ingeniería &amp; Construcciones">
+<meta name="twitter:description" content="Especialistas en electricidad, obras civiles, mecánica y refrigeración industrial en el estado Zulia.">
+<meta name="twitter:image" content="https://refriroca.com/assets/images/logo/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', 'Arial', 'sans-serif'],
+          oswald: ['Oswald', 'sans-serif'],
+        }
+      }
+    }
+  }
+</script>
+<style type="text/tailwindcss">
+  @layer utilities {
+    .animate-fill {
+      animation: fill 2.4s ease-out forwards 0.2s;
+    }
+    .animate-pulse-custom {
+      animation: pulse-custom 1.6s ease-in-out infinite;
+    }
+  }
+  @keyframes fill { to { width: 62%; } }
+  @keyframes pulse-custom { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .animate-fill, .animate-pulse-custom { animation: none; }
+    .animate-fill { width: 62%; }
+  }
+</style>
+</head>
+<body class="bg-black min-h-screen flex items-start sm:items-center justify-center sm:p-5 font-sans">
+
+  <main class="w-full max-w-[420px]">
+    <div class="rounded-md bg-gradient-to-b from-[#05070f] to-black px-[22px] py-8 pb-[26px] sm:px-[30px] sm:py-10 sm:pb-8">
+
+      <div class="flex justify-center mb-[22px]">
+        <img class="w-[160px] sm:w-[200px] max-w-[68%] h-auto" src="assets/images/logo/logo.jpg" alt="Logo Refriroca">
+      </div>
+
+      <div class="h-px bg-gradient-to-r from-transparent via-[#1e2a52] to-transparent mb-[26px]"></div>
+
+      <p class="text-center text-[11px] tracking-[0.3em] uppercase text-[#8b93ad] font-medium mb-2.5">Sitio en preparación</p>
+      <h1 class="font-oswald text-center text-[21px] sm:text-[25px] font-semibold tracking-[0.01em] text-[#eef0f6] leading-[1.3] mb-3.5">Estamos <span class="text-[#4a5fc1]">construyendo</span> algo sólido</h1>
+      <p class="text-center text-[#7b8299] text-[14.5px] leading-[1.65] mb-[26px]">
+        Ingeniería, construcción y climatización. Estamos terminando los últimos
+        detalles de nuestro sitio, vuelve pronto.
+      </p>
+
+      <div class="h-[3px] bg-[#14182b] rounded-sm overflow-hidden mb-[22px]">
+        <div class="h-full w-0 bg-gradient-to-r from-[#3a4a9e] to-[#8f97ab] animate-fill"></div>
+      </div>
+
+      <div class="flex items-center justify-center gap-2 text-[11px] tracking-[0.05em] text-[#5c6480]">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#4a5fc1] animate-pulse-custom"></span>
+        <span>EN CONSTRUCCIÓN</span>
+      </div>
+
+    </div>
+
+    <footer class="text-center text-[#3d4258] text-[11.5px] mt-[22px] tracking-[0.03em]">© 2026 Refriroca — Ingeniería &amp; Construcciones</footer>
+  </main>
+
+</body>
+</html>
